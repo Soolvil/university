@@ -1,8 +1,7 @@
 import sys
-import math
 
-data_path = sys.argv[1]
-data = open("./" + data_path + ".WCData.txt", "r")
+data_path = "./" + sys.argv[1]
+data = open(data_path, "r")
 buff = data.readline()
 buff = data.readline()
 buff = data.readlines()
@@ -31,3 +30,4 @@ print("------------------------------")
 print("")
 average_temp = round(average_temp / data_count, 1) 
 print(f"The average adjusted temperature, based on {data_count} observations, was {average_temp}")
+data.close()
