@@ -19,7 +19,7 @@ def encode(text):
 
 def decode(seq):
     text = ""
-    for i in range(1, len(seq)):
+    for i in range(0, len(seq)):
         if(seq[i] >= '3' and seq[i] <= '9'):
             text += seq[i + 1] * int(seq[i])
             i += 1
@@ -46,9 +46,9 @@ def diff(data, name1, name2):
         name, _, amino = protein.split('\t')
         amino = amino[:-1]
         if name == name1:
-            amino1 = amino
+            amino1 = decode(amino)
         if name == name2:
-            amino2 = amino
+            amino2 = decode(amino)
     if amino1 == "" or amino2 == "":
         print("MISSING:")
         if amino1 == "":
@@ -68,7 +68,7 @@ def mode(data, mname):
     for protein in data:
         name, _, amino = protein.split('\t')
         if name == mname:
-            seq = amino
+            seq = decode(amino)
     if seq == "":
         print("MISSING:")
         print(mname)
@@ -82,8 +82,8 @@ def mode(data, mname):
         for name, count in acids.items():
             if count > acids[maximal] or (count == acids[maximal] and name < maximal):
                 maximal = name
-        print("amino-acids occurs:")
-        print(f"{maximal}   {acids[maximal]}")
+        print("amino-acid occurs:")
+        print(f"{maximal}          {acids[maximal]}")
 
 data = (open(sys.argv[1], "r")).readlines()
 commands = (open(sys.argv[2], "r")).readlines()

@@ -18,7 +18,7 @@ months = {
 }
 
 def valid_day(month, cur_day):
-    if(cur_day < 0):
+    if(cur_day < 1):
         return False
     if(cur_day > months[month]):
         return False
