@@ -1,0 +1,15 @@
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.GeneratedMSBuildEditorConfig.editorconfig
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.AssemblyInfoInputs.cache
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.AssemblyInfo.cs
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.csproj.CoreCompileInputs.cache
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.sourcelink.json
+/home/soolvil/university/year - 2/CoS/lab2/bin/Debug/net10.0/lab2
+/home/soolvil/university/year - 2/CoS/lab2/bin/Debug/net10.0/lab2.deps.json
+/home/soolvil/university/year - 2/CoS/lab2/bin/Debug/net10.0/lab2.runtimeconfig.json
+/home/soolvil/university/year - 2/CoS/lab2/bin/Debug/net10.0/lab2.dll
+/home/soolvil/university/year - 2/CoS/lab2/bin/Debug/net10.0/lab2.pdb
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.dll
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/refint/lab2.dll
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.pdb
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/lab2.genruntimeconfig.cache
+/home/soolvil/university/year - 2/CoS/lab2/obj/Debug/net10.0/ref/lab2.dll

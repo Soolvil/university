@@ -33,7 +33,7 @@ class Program{
       StreamReader fstream = new StreamReader(fileName);
       return fstream.ReadToEnd();
    }
-
+   
    static List<string> getWords(string text){
       const string pattern = "\\b[a-zA-Z\\p{IsCyrillic}]+\\b";
       List<string> result = new List<string>();
